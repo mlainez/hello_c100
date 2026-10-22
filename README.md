@@ -1,6 +1,9 @@
 # HelloC100
 
-**TODO: Add description**
+Test application for the OKdo Nano C100 Nerves system
+(`nerves_system_okdo_c100`, taken from the sibling checkout by path). It
+boots the board, brings up Ethernet and SSH with the host's key, and is the
+firmware used for board testing and GPU benchmarks.
 
 ## Targets
 
