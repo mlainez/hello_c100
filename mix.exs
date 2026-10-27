@@ -49,7 +49,7 @@ defmodule HelloC100.MixProject do
 
       # Dependencies for specific targets
       {:nerves_system_okdo_c100,
-       path: "../nerves_system_okdo_c100",
+       github: "mlainez/nerves_system_okdo_c100",
        runtime: false,
        targets: :okdo_c100,
        nerves: [compile: true]}
