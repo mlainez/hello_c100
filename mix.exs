@@ -51,8 +51,7 @@ defmodule HelloC100.MixProject do
       {:nerves_system_okdo_c100,
        github: "mlainez/nerves_system_okdo_c100",
        runtime: false,
-       targets: :okdo_c100,
-       nerves: [compile: true]}
+       targets: :okdo_c100}
     ]
   end
 
